@@ -1,3 +1,3 @@
 # Hstratum Documenation
 
-- [Spec](/spec.md)
+- [Spec](spec.md)
