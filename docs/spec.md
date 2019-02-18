@@ -12,6 +12,8 @@ This file contains the full spec of Handshake's stratum protocol.
 
 ### mining.notify
 
+```mining.notify(...)```
+
 This is the primary call that differentiates Handshake's stratum protocol vs Bitcoin's.
 
 mining.notify is used to notify the miner of the current job that it needs to process. The following are the fields that are returned in order.
@@ -30,6 +32,8 @@ mining.notify is used to notify the miner of the current job that it needs to pr
 12. clean jobs - If true, informs the miner to release their current work and start on the new job.
 
 ### mining.set_difficulty
+
+```mining.set_difficulty(difficulty)```
 
 The server can adjust the difficulty required for miner shares with the "mining.set_difficulty" method. The miner should begin enforcing the new difficulty on the next job received. Some pools may force a new job out when set_difficulty is sent, using clean_jobs to force the miner to begin using the new difficulty immediately.
 
