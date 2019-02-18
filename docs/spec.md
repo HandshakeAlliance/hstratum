@@ -6,8 +6,8 @@ This file contains the full spec of Handshake's stratum protocol.
 
 ## Server To Client Calls
 
-- [mining.notify](#mining.notify)
-- [mining.set_difficulty](#mining.set_difficulty)
+- [mining.notify](#miningnotify)
+- [mining.set_difficulty](#miningset_difficulty)
 
 
 ### mining.notify
