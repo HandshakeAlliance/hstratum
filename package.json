@@ -34,9 +34,6 @@
     "buffer-map": "~0.0.5",
     "hsd": "github:handshake-org/hsd"
   },
-  "peerDependencies": {
-    "hsd": "handshake-org/hsd"
-  },
   "devDependencies": {
     "bmocha": "^1.0.0"
   },
